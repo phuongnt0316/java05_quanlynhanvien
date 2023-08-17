@@ -36,17 +36,17 @@ public class QuanLyNhanVien {
                     break;
                 case 2:
                     list.themNV();
-                    list.capNhat();
+                    list.capNhatDuLieu();
                     break;
                 case 3:
                     System.out.println("Nhập ID nhân viên cần xóa:");
                     list.xoaNV(sc.nextLine());
-                    list.capNhat();
+                    list.capNhatDuLieu();
                     break;
                 case 4:
                     System.out.println("Nhập ID nhân viên cần sửa:");
                     list.suaNV(sc.nextLine());
-                    list.capNhat();
+                    list.capNhatDuLieu();
                     break;
                 case 5:
                     System.out.println("Nhập ID/Email/SDT của nhân viên:");
@@ -56,7 +56,7 @@ public class QuanLyNhanVien {
                     flag=false;
                     break;
                 default:
-                    System.out.println("Nhập chức năng 1->7!");
+                    System.out.println("Nhập chức năng 1->6!");
             }
         }while (flag);
 

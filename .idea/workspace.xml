@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf5636-adce-415e-a9b7-c23654dda330" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhanvien/FileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhanvien/ListNhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhanvien/NhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhanvien/QuanLyNhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhanvien/product.txt" afterDir="false" />
+    <list default="true" id="eccf5636-adce-415e-a9b7-c23654dda330" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nhanvien/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nhanvien/FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nhanvien/ListNhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nhanvien/ListNhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nhanvien/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nhanvien/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nhanvien/QuanLyNhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nhanvien/QuanLyNhanVien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ntpph/IdeaProjects/java05",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.QuanLyNhanVien">
     <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nhanvien.FileIO" />
@@ -97,11 +90,26 @@
       <updated>1691853207484</updated>
       <workItem from="1691853208535" duration="7417000" />
       <workItem from="1692025324376" duration="3743000" />
-      <workItem from="1692084998457" duration="7846000" />
+      <workItem from="1692084998457" duration="9279000" />
+      <workItem from="1692260420413" duration="27000" />
+      <workItem from="1692260489957" duration="595000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1692094954693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692094954693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

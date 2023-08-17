@@ -107,9 +107,9 @@ public class NhanVien {
         this.email=sc.nextLine();
         System.out.print("Giới tính:");
         this.gioiTinh=sc.nextLine();
-        System.out.println("Năm sinh:");
+        System.out.print("Năm sinh:");
         this.namSinh=Integer.parseInt(sc.nextLine());
-        System.out.println("Quê quán:");
+        System.out.print("Quê quán:");
         this.queQuan=sc.nextLine();
 
     }
@@ -122,7 +122,6 @@ public class NhanVien {
         System.out.println("Năm sinh: "+namSinh);
         System.out.println("Quê quán: "+queQuan);
     }
-
     @Override
     public String toString() {
         return ID+","+hoTen+","+SDT+","+email+","+gioiTinh+","+namSinh+","+queQuan;

@@ -6,10 +6,11 @@ import java.util.List;
 
 public class FileIO {
     private final static String FILE_URL = "product.txt";
+
     public void ghiFile(String data) {//ghi một dòng mới
-        try{
+        try {
             File file = new File(FILE_URL);
-            OutputStream outputStream = new FileOutputStream(file,true);
+            OutputStream outputStream = new FileOutputStream(file, true);
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(outputStream);
             outputStreamWriter.write(data);
             outputStreamWriter.write("\n");
@@ -21,15 +22,16 @@ public class FileIO {
         }
 
     }
-    public void update(ArrayList<NhanVien> arrayList){//ghi mảng đã cập nhật
-        try{
+
+    public void update(ArrayList<NhanVien> arrayList) {//ghi mảng đã cập nhật
+        try {
             File file = new File(FILE_URL);
             OutputStream outputStream = new FileOutputStream(file);
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(outputStream);
-            for(NhanVien nv:arrayList){
-            outputStreamWriter.write(nv.toString());
-            outputStreamWriter.write("\n");
-            outputStreamWriter.flush();
+            for (NhanVien nv : arrayList) {
+                outputStreamWriter.write(nv.toString());
+                outputStreamWriter.write("\n");
+                outputStreamWriter.flush();
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -37,6 +39,7 @@ public class FileIO {
             throw new RuntimeException(e);
         }
     }
+
     public ArrayList<NhanVien> docFile() {//Đọc file->array
         ArrayList<NhanVien> list = new ArrayList<>();
         List<String> myList = new ArrayList<String>();
@@ -61,33 +64,12 @@ public class FileIO {
                 }
             }
         }
-        for(String str:myList){
-            String[] arr= str.split(",");
-//                for (String s:arr){
-//                    System.out.println(s);
-//                }
-                NhanVien nhanVien=new NhanVien(arr[0].toString(),arr[1].toString(),arr[2].toString(),arr[3].toString(),arr[4].toString(),Integer.parseInt(arr[5].toString().trim()),arr[6].toString());
-                list.add(nhanVien);
-//                for (NhanVien nv:list){
-//                    nv.xuatNV();
-//                }
+        for (String str : myList) {
+            String[] arr = str.split(",");
+            NhanVien nhanVien = new NhanVien(arr[0].toString(), arr[1].toString(), arr[2].toString(), arr[3].toString(), arr[4].toString(), Integer.parseInt(arr[5].toString().trim()), arr[6].toString());
+            list.add(nhanVien);
         }
         return list;
 
     }
-//    public static void main(String[] args)  {
-//        FileIO file=new FileIO();
-//        System.out.println("-----------");
-//       ArrayList<NhanVien> arr= file.Output();
-//       for(NhanVien nv:arr){
-//           nv.xuatNV();
-//       }
-//        System.out.println("---------------------------");
-//       NhanVien nhanVien=new NhanVien();
-//       nhanVien.nhapNV();
-//       arr.add(nhanVien);
-//       arr.remove(0);
-//       file.update(arr);
-//
-//    }
 }
